@@ -1,0 +1,16 @@
+students = {
+    "Ram": 80,
+    "Asha": 90,
+    "John": 80
+}
+
+result = {}
+
+for name, mark in students.items():
+    result.setdefault(mark, []).append(name)
+
+print(result)
+
+Output
+
+{80: ['Ram', 'John'], 90: ['Asha']}
