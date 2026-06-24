@@ -1,0 +1,9 @@
+data = {"C":30,"A":10,"B":20}
+
+result = dict(sorted(data.items()))
+
+print(result)
+
+Output
+
+{'A': 10, 'B': 20, 'C': 30}
