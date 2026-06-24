@@ -1,0 +1,7 @@
+data = {"A": 10, "B": 20}
+
+print("A" in data)
+
+Output
+
+True
