@@ -1,0 +1,11 @@
+data = {"A": 10, "B": 50, "C": 30}
+
+result = dict(sorted(data.items(),
+                     key=lambda x: x[1],
+                     reverse=True))
+
+print(result)
+
+Output
+
+{'B': 50, 'C': 30, 'A': 10}
