@@ -1,0 +1,14 @@
+employees = {
+    "Ram": 30000,
+    "Asha": 50000,
+    "John": 45000
+}
+
+highest = max(employees.items(),
+              key=lambda x: x[1])
+
+print(highest)
+
+Output
+
+('Asha', 50000)
