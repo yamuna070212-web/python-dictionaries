@@ -1,0 +1,12 @@
+data = {
+    "apple": "red",
+    "banana": "yellow"
+}
+
+result = {v: k for k, v in data.items()}
+
+print(result)
+
+Output
+
+{'red': 'apple', 'yellow': 'banana'}
