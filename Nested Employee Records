@@ -1,0 +1,10 @@
+employees = {
+    "E1": {"name": "Ram", "salary": 30000},
+    "E2": {"name": "Asha", "salary": 50000}
+}
+
+print(employees["E2"]["name"])
+
+Output
+
+Asha
