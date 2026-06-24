@@ -1,0 +1,15 @@
+data = {
+    "A": {"x": 10, "y": 20},
+    "B": {"x": 30, "y": 40}
+}
+
+total = 0
+
+for value in data.values():
+    total += sum(value.values())
+
+print(total)
+
+Output
+
+100
