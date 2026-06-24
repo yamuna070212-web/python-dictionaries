@@ -1,0 +1,9 @@
+data = {"A": 10, "B": 50, "C": 30}
+
+result = min(data, key=data.get)
+
+print(result)
+
+Output
+
+A
