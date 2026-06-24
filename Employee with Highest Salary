@@ -1,0 +1,7 @@
+employees = {
+    "Ram": 30000,
+    "Asha": 50000,
+    "John": 45000
+}
+
+print(max(employees, key=employees.get))
