@@ -1,0 +1,9 @@
+data = {"A": 10, "B": 20}
+
+data["C"] = 30
+
+print(data)
+
+Output
+
+{'A': 10, 'B': 20, 'C': 30}
