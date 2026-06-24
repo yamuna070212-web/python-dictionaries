@@ -1,0 +1,18 @@
+students = {
+    "Ram": 85,
+    "Asha": 95,
+    "John": 75
+}
+
+ranked = sorted(students.items(),
+                key=lambda x:x[1],
+                reverse=True)
+
+for rank, student in enumerate(ranked, start=1):
+    print(rank, student)
+
+Output
+
+1 ('Asha', 95)
+2 ('Ram', 85)
+3 ('John', 75)
