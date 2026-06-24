@@ -1,0 +1,10 @@
+data = {"A": 10, "B": 20}
+
+key = "C"
+
+if key not in data:
+    print("Missing")
+
+Output
+
+Missing
