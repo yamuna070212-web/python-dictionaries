@@ -1,0 +1,9 @@
+data = {"A": 1, "B": 2, "C": 3}
+
+result = {v: k for k, v in data.items()}
+
+print(result)
+
+Output
+
+{1: 'A', 2: 'B', 3: 'C'}
