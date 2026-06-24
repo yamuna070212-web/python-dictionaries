@@ -1,0 +1,9 @@
+data = {"A": 10, "B": 50, "C": 20}
+
+result = {k:v for k,v in data.items() if v > 20}
+
+print(result)
+
+Output
+
+{'B': 50}
