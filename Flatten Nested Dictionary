@@ -1,1 +1,18 @@
+data = {
+    "student": {
+        "name": "Ram",
+        "age": 20
+    }
+}
 
+flat = {}
+
+for key, value in data.items():
+    for k, v in value.items():
+        flat[f"{key}_{k}"] = v
+
+print(flat)
+
+Output
+
+{'student_name': 'Ram', 'student_age': 20}
