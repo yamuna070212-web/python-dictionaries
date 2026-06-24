@@ -1,0 +1,7 @@
+data = {"A": 10, "B": 50, "C": 30}
+
+print(max(data.values()))
+
+Output
+
+50
