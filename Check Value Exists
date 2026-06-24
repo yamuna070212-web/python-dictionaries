@@ -1,0 +1,7 @@
+data = {"A": 10, "B": 20}
+
+print(20 in data.values())
+
+Output
+
+True
