@@ -1,0 +1,15 @@
+d1 = {"A": 1, "B": 2, "C": 3}
+d2 = {"B": 5, "C": 6, "D": 7}
+
+common = {}
+
+for key in d1:
+
+    if key in d2:
+        common[key] = d1[key]
+
+print(common)
+
+Output
+
+{'B': 2, 'C': 3}
