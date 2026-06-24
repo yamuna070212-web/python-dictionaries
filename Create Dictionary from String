@@ -1,0 +1,9 @@
+text = "abc"
+
+result = {ch: ord(ch) for ch in text}
+
+print(result)
+
+Output
+
+{'a': 97, 'b': 98, 'c': 99}
