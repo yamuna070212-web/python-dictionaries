@@ -1,0 +1,8 @@
+d1 = {"A":1,"B":2}
+d2 = {"A":1,"C":3}
+
+print(d1.items() & d2.items())
+
+Output
+
+{('A', 1)}
