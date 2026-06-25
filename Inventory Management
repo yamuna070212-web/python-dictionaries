@@ -1,0 +1,12 @@
+inventory = {
+    "Pen": 50,
+    "Book": 20
+}
+
+inventory["Pen"] -= 5
+
+print(inventory)
+
+Output
+
+{'Pen': 45, 'Book': 20}
