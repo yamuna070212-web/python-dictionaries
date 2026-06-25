@@ -1,0 +1,14 @@
+text = "programming"
+
+freq = {}
+
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+
+result = max(freq, key=freq.get)
+
+print(result)
+
+Output
+
+r
