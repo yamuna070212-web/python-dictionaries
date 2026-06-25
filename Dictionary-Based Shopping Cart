@@ -1,0 +1,13 @@
+cart = {
+    "Pen": 10,
+    "Book": 50,
+    "Bag": 500
+}
+
+total = sum(cart.values())
+
+print(total)
+
+Output
+
+560
