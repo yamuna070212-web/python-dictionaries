@@ -1,0 +1,13 @@
+text = "education"
+
+vowels = {}
+
+for ch in text:
+    if ch in "aeiou":
+        vowels[ch] = vowels.get(ch, 0) + 1
+
+print(vowels)
+
+Output
+
+{'e': 1, 'u': 1, 'a': 1, 'i': 1, 'o': 1}
