@@ -1,0 +1,13 @@
+data = {
+    "A": 10,
+    "B": 50,
+    "C": 30
+}
+
+values = sorted(data.values())
+
+print(values[-2])
+
+Output
+
+30
