@@ -1,0 +1,17 @@
+data = {
+    "A": 10,
+    "B": 20,
+    "C": 10
+}
+
+result = {}
+
+for k, v in data.items():
+    if v not in result.values():
+        result[k] = v
+
+print(result)
+
+Output
+
+{'A': 10, 'B': 20}
