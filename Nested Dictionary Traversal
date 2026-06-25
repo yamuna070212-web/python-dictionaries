@@ -1,0 +1,12 @@
+students = {
+    "S1": {"name": "Ram", "age": 20},
+    "S2": {"name": "Asha", "age": 19}
+}
+
+for student, details in students.items():
+    print(student, details)
+
+Output
+
+S1 {'name': 'Ram', 'age': 20}
+S2 {'name': 'Asha', 'age': 19}
