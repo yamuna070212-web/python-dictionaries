@@ -1,0 +1,16 @@
+data = {
+    "apple": 1,
+    "banana": 2,
+    "cat": 3
+}
+
+result = {}
+
+for key in data:
+    result[key] = len(key)
+
+print(result)
+
+Output
+
+{'apple': 5, 'banana': 6, 'cat': 3}
