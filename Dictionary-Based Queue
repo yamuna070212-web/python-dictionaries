@@ -1,0 +1,12 @@
+queue = {}
+
+queue[0] = "Ram"
+queue[1] = "Asha"
+
+print(queue.pop(0))
+print(queue)
+
+Output
+
+Ram
+{1: 'Asha'}
