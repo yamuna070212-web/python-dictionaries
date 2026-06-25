@@ -1,0 +1,12 @@
+students = {
+    "Ram": [80,90,85],
+    "Asha": [95,92,90]
+}
+
+for name, marks in students.items():
+    print(name, sum(marks)/len(marks))
+
+Output
+
+Ram 85.0
+Asha 92.33333333333333
