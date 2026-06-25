@@ -1,0 +1,14 @@
+data = {
+    "A": 0,
+    "B": 10,
+    "C": 0,
+    "D": 20
+}
+
+result = {k:v for k,v in data.items() if v != 0}
+
+print(result)
+
+Output
+
+{'B': 10, 'D': 20}
