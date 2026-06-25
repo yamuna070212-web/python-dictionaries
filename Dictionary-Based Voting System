@@ -1,0 +1,12 @@
+votes = ["A","B","A","C","A","B"]
+
+result = {}
+
+for vote in votes:
+    result[vote] = result.get(vote,0)+1
+
+print(result)
+
+Output
+
+{'A': 3, 'B': 2, 'C': 1}
