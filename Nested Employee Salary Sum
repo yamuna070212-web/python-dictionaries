@@ -1,0 +1,15 @@
+employees = {
+    "Dept1": {"Ram":30000,"Asha":40000},
+    "Dept2": {"John":50000}
+}
+
+total = 0
+
+for dept in employees.values():
+    total += sum(dept.values())
+
+print(total)
+
+Output
+
+120000
