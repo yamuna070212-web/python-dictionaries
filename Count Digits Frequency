@@ -1,0 +1,12 @@
+number = "1223334444"
+
+freq = {}
+
+for digit in number:
+    freq[digit] = freq.get(digit, 0) + 1
+
+print(freq)
+
+Output
+
+{'1': 1, '2': 2, '3': 3, '4': 4}
