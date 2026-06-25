@@ -1,0 +1,11 @@
+data = {
+    "apple": 10,
+    "banana": 20,
+    "cat": 30
+}
+
+print(min(data, key=len))
+
+Output
+
+cat
