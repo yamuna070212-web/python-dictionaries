@@ -1,0 +1,12 @@
+numbers = [10, 20, 30]
+
+result = {}
+
+for i, num in enumerate(numbers):
+    result[i] = num
+
+print(result)
+
+Output
+
+{0: 10, 1: 20, 2: 30}
