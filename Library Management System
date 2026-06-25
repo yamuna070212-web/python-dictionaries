@@ -1,0 +1,13 @@
+library = {
+    "Python": 5,
+    "Java": 3,
+    "C": 2
+}
+
+library["Python"] -= 1
+
+print(library)
+
+Output
+
+{'Python': 4, 'Java': 3, 'C': 2}
