@@ -1,0 +1,13 @@
+votes = {
+    "A": 120,
+    "B": 150,
+    "C": 90
+}
+
+winner = max(votes, key=votes.get)
+
+print(winner)
+
+Output
+
+B
