@@ -1,0 +1,22 @@
+inventory = {
+    "Pen": 10,
+    "Book": 50,
+    "Bag": 500
+}
+
+quantity = {
+    "Pen": 20,
+    "Book": 10,
+    "Bag": 2
+}
+
+total = 0
+
+for item in inventory:
+    total += inventory[item] * quantity[item]
+
+print(total)
+
+Output
+
+1700
