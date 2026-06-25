@@ -1,0 +1,17 @@
+data = {
+    "A": 10,
+    "B": 20,
+    "C": 10
+}
+
+result = []
+
+for k, v in data.items():
+    if v == 10:
+        result.append(k)
+
+print(result)
+
+Output
+
+['A', 'C']
