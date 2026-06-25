@@ -1,0 +1,17 @@
+attendance = {
+    "Ram": "Present",
+    "Asha": "Absent",
+    "John": "Present"
+}
+
+count = 0
+
+for status in attendance.values():
+    if status == "Present":
+        count += 1
+
+print(count)
+
+Output
+
+2
