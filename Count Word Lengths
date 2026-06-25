@@ -1,0 +1,12 @@
+words = ["python","java","c"]
+
+result = {}
+
+for word in words:
+    result[word] = len(word)
+
+print(result)
+
+Output
+
+{'python': 6, 'java': 4, 'c': 1}
