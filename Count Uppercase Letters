@@ -1,0 +1,13 @@
+text = "PyTHon"
+
+freq = {}
+
+for ch in text:
+    if ch.isupper():
+        freq[ch] = freq.get(ch, 0) + 1
+
+print(freq)
+
+Output
+
+{'P': 1, 'T': 1, 'H': 1}
