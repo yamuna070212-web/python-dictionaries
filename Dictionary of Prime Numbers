@@ -1,0 +1,19 @@
+primes = {}
+
+for num in range(2, 21):
+
+    prime = True
+
+    for i in range(2, num):
+        if num % i == 0:
+            prime = False
+            break
+
+    if prime:
+        primes[num] = "Prime"
+
+print(primes)
+
+Output
+
+{2: 'Prime', 3: 'Prime', 5: 'Prime', 7: 'Prime', 11: 'Prime', 13: 'Prime', 17: 'Prime
